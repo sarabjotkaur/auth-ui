@@ -1,0 +1,173 @@
+.container {
+  display: flex;
+  gap: 30px;           
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-section,
+.outer-section2{
+  width: 320px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.header{
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;       
+}
+
+.inner-section,
+.inner-section2{
+  background-color: rgb(6, 81, 44);
+  height: 377px;
+  width: 320px;
+  margin-top: 3px;
+  border-top-left-radius: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;    
+}
+
+.login-info,
+.sign-up-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.log-in{
+  color: white;        
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 0.56;
+}
+
+.inputs,
+.signup-input,
+.signup-input1{
+  padding: 12px 90px 12px 15px;
+  border-radius: 10px;
+  border: none; 
+  margin-top: 10px;    
+}
+
+.middle-section{
+  display: flex;
+  flex-direction: row;      
+}
+
+.check-box{
+  margin-left: 27px;
+}
+
+.remember-me,
+.forgot-password{
+  font-size: 12.5px;
+  padding-top: 2.5px;
+}
+
+.remember-me{
+  color: white;       
+}
+
+.forgot-password{
+  padding-left: 68px;
+  color: gray;        
+}
+
+.login-section,
+.signup-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-button,
+.signup-button{
+  padding: 12px 114px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.sign-in{
+  font-size: 14px;
+  color: white;
+  margin-top: 28px;
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo{
+  height: 20px;
+  width: 20px;        
+  border-radius: 50%;  
+  object-fit: cover;
+  margin: 0px 15px;       
+}
+
+.footer{
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.sign-up,
+.sign-in{
+  color: gray;
+}
+      
+.forgot-password,
+.login-button,
+.signup-button,
+.logo,
+.sign-up,
+.sign-in{
+  cursor: pointer;
+}
+
+.arrow-img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 13px;
+  left: 10px;
+}
+
+.outer-section2{
+  position: relative;
+}
+
+
+.inner-section2{
+  height: 418px; 
+}
+
+.signup-input1{
+  margin-top: 30px;
+}
+
+.signup-button{
+  margin-top: 40px;
+}
